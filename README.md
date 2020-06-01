@@ -97,13 +97,19 @@ seniorcitizen,partner,dependents,internetservice,contract,paperlessbilling, and 
  
  ![](images/methodlogy.png)
  
+ # Modelling
+ 
+Modelling with Logistic Regression,RandomForest,and XGBoost, I got the best accuracy of 85% with RandomForest. The Recall, Precison, and F1 were 85% in zero and one.
+![](images/feature.png)
+
+![](images/logistic.png)
  
  # Metrics
  Metrics used was confuision matrix, testing accuracy score, AUC/Roc, Recall,Precesion, F1, and Cross validation
   ![](images/confusion.png)
   
    ![](images/Roc.png)
- 
+
  
  # Conclusion
 In conclusion, research in predicting customer churn has proved that it is very important field and it adds an income to Telecom companies.As we can see, some variables are negatively correlated with the predicted target (Churn), while some others behave positively. Negative correlation means that churn decreases when variable increases.
