@@ -5,15 +5,18 @@
 # Project 3 Telecom Churn Prediction
 
 
-1.1  Introduction
-1.1.1  What Is Customer Churn?
+  # Introduction
+  
+  What Is Customer Churn?
 Customer churn or customer attrition is the loss of customers by a business when customer stop using the service of the company. We calculate churn rate by dividing the number of customers were lost during that time period by the number of customers were existed at the beginning of that time period.
 
-1.1.2  Why it is important to calculate customer churn?
+# Why it is important to calculate customer churn?
 Because business is built on a number of customers using its service. Keeping its customers is less expensive than bringing new ones.
 
-1.1.3  Important Questions:
+  # Important Questions:
+
 Important Questions are:
+
 Q1: What percentage of customers churn?
 
 Q2: What are common variables among churn customers?
