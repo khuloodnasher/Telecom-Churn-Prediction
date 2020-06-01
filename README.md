@@ -77,6 +77,22 @@ TotalCharges:The total amount charged to the customer
 Churn: Whether the customer churned or not (Yes or No)
 ![](images/pie.png)
 
+ # EDA 
+ I invistigated every caterogical column and I visualize it and I studied every numeric column and I visualize it.
+ 
+ # Important categorical Features
+In conclusion, based on our analyses, We can see the more servises are added the less people churn. Gender is not a feature, phone service and multipleline arn't important.
+
+# List of important features are :
+seniorcitizen,partner,dependents,internetservice,contract,paperlessbilling, and paymentmethod.
+ ![](images/payment.png)
+ 
+![](images/internet.png)
+
+![](images/payment.png)
+![](images/numeroc.png)
+![](images/contract.png)
+
  # Methodlogy 
  
  ![](images/methodlogy.png)
