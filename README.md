@@ -100,7 +100,7 @@ seniorcitizen,partner,dependents,internetservice,contract,paperlessbilling, and 
  # Modelling
  
 Modelling with Logistic Regression,RandomForest,and XGBoost, I got the best accuracy of 85% with RandomForest. The Recall, Precison, and F1 were 85% in zero and one.
-![](images/feature.png)
+
 
 ![](images/logistic.png)
  
@@ -115,8 +115,15 @@ Also, When a model's F1 score is high, we know that the model is doing well all 
   ![](images/confusion.png)
   
    ![](images/Roc.png)
-
- 
+# Hypertuning
+Trying to follow the Gridsearch best model i.e.Random forest with the best suggested parameter of number of estimators=10,I found my model ran into overfitting issue where the training accuracy is 98.1% while the testing accuracy is 84.6%. I can fix the overfitting of my model through adding more parametetrs to Randomforest which will tune my model and overcome the overfitting issue. I ran a gridsearch  with the following param
+param_grid = {
+     'criterion':['gini','entropy'],
+    'max_depth':[2,3,4,5,20],
+    'min_samples_split':[5,20,50],
+    'min_samples_leaf':[15,20,30],
+    'n_estimators': [1,5,10]
+ ![](images/feature.png)
  # Conclusion
 In conclusion, research in predicting customer churn has proved that it is very important field and it adds an income to Telecom companies.As we can see, some variables are negatively correlated with the predicted target (Churn), while some others behave positively. Negative correlation means that churn decreases when variable increases.
 
