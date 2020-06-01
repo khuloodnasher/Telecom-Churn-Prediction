@@ -108,7 +108,6 @@ Modelling with Logistic Regression,RandomForest,and XGBoost, I got the best accu
  Evaluation Metrics
 Important used metrics: which evaluation metric is most essential for this project ?$$ \text{Precision} = \frac{\text{Number of True Positives}}{\text{Number of Predicted Positives}} = \frac{\text{TP}}{\text{TP+FP}} $$
 
-$$ \text{Recall} = \frac{\text{Number of True Positives}}{\text{Number of Actual Total Positives}} = \frac{\text{TP}}{\text{TP+FN}}$$$$ \text{Accuracy} = \frac{\text{Number of True Positives + True Negatives}}{\text{Total Observations}} = \frac{\text{TP + TN}}{\text{TP+TN+FP+FN}}  $$
 churned customers are important. We need the model to predict as many churned customers as possible.
 Thus, we cannot afford a high FN and must be low
 Therefore, recall is important here and must be high
