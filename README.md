@@ -93,16 +93,23 @@ seniorcitizen,partner,dependents,internetservice,contract,paperlessbilling, and 
 ![](images/numeroc.png)
 ![](images/contract.png)
 
+
  # Methodlogy 
  
  ![](images/methodlogy.png)
  
  # Modelling
  
+### Select Best Model
+I compared some algorithms and I fould Logistic Regression is the highest accurcy.
+
+![](images/algorithm.png)
+
 Modelling with Logistic Regression,RandomForest,and XGBoost, I got the best accuracy of 85% with RandomForest. The Recall, Precison, and F1 were 85% in zero and one.
 
 
 ![](images/logistic.png)
+
  
 # Hypertuning
 Trying to follow the Gridsearch best model i.e.Random forest with the best suggested parameter of number of estimators=10,I found my model ran into overfitting issue where the training accuracy is 98.1% while the testing accuracy is 84.6%. I can fix the overfitting of my model through adding more parametetrs to Randomforest which will tune my model and overcome the overfitting issue. I ran a gridsearch  with the following param
