@@ -82,7 +82,11 @@ Churn: Whether the customer churned or not (Yes or No)
  ![](images/methodlogy.png)
  
  
- 
+ # Metrics
+ Metrics used was confuision matrix, testing accuracy score, AUC/Roc, Recall,Precesion, F1, and Cross validation
+  ![](images/confusion.png)
+  
+   ![](images/Roc.png)
  
  
  # Conclusion
