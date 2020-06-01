@@ -77,6 +77,14 @@ TotalCharges:The total amount charged to the customer
 Churn: Whether the customer churned or not (Yes or No)
 ![](images/pie.png)
 
+ # Methodlogy 
+ 
+ ![](images/Methodlogy.png)
+ 
+ 
+ 
+ 
+ 
  # Conclusion
 In conclusion, research in predicting customer churn has proved that it is very important field and it adds an income to Telecom companies.As we can see, some variables are negatively correlated with the predicted target (Churn), while some others behave positively. Negative correlation means that churn decreases when variable increases.
 
