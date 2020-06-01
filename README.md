@@ -76,3 +76,29 @@ TotalCharges:The total amount charged to the customer
 
 Churn: Whether the customer churned or not (Yes or No)
 
+ # Conclusion
+In conclusion, research in predicting customer churn has proved that it is very important field and it adds an income to Telecom companies.As we can see, some variables are negatively correlated with the predicted target (Churn), while some others behave positively. Negative correlation means that churn decreases when variable increases.
+
+based on our EDA, We can see the more servises are added the less people churn. Gender is not a feature, phone service and multipleline arn't important.
+
+List of important features are :
+seniorcitizen,partner,dependents,internetservice,contract,paperlessbilling, paymentmethod,Totalcharges and Tenure.
+
+By the end of this project I can set the following recommendations:
+
+# Recommendation
+Offer incentives for one/two year contract.
+
+Seasonal Incentives for multiple lines on monthly charges when bringing dependents/partners.
+
+Free services for non-churn such as streaming services
+
+Stay competitive with internet services.
+
+Special offers for senior citizens.
+
+Be Proactive when changing business plan.
+
+
+
+
