@@ -79,7 +79,7 @@ Churn: Whether the customer churned or not (Yes or No)
 
  # Methodlogy 
  
- ![](images/Methodlogy.png)
+ ![](images/methodlogy.png)
  
  
  
