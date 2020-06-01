@@ -106,8 +106,7 @@ Modelling with Logistic Regression,RandomForest,and XGBoost, I got the best accu
  
  # Metrics
  Evaluation Metrics
-Important used metrics: which evaluation metric is most essential for this project ?$$ \text{Precision} = \frac{\text{Number of True Positives}}{\text{Number of Predicted Positives}} = \frac{\text{TP}}{\text{TP+FP}} $$
-
+Important used metrics: which evaluation metric is most essential for this project 
 churned customers are important. We need the model to predict as many churned customers as possible.
 Thus, we cannot afford a high FN and must be low
 Therefore, recall is important here and must be high
